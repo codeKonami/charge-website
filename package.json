@@ -1,0 +1,13 @@
+{
+  "name": "charge-website",
+  "version": "1.0.0",
+  "author": "Thomas Foricher",
+  "license": "MIT",
+  "devDependencies": {
+    "@static/charge": "^1.7.0"
+  },
+  "scripts": {
+    "start": "charge serve source",
+    "deploy": "charge build source target"
+  }
+}
